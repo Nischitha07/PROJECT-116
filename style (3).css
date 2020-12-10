@@ -1,0 +1,25 @@
+.btn-success:hover{
+background-color: rgb(247, 68, 92);
+font-size: 20px;
+font-family: Georgia;
+}
+#take_snap,#realtime{
+    font-size: 20px;
+font-family: Georgia;
+}
+canvas{
+animation-name: colorful_animae;
+animation-duration: 2s;
+animation-iteration-count: infinite;
+margin-top:55px;
+}
+@keyframes colorful_animae{
+    from{box-shadow:1px  1px 50px rgb(255, 0, 0);} to{box-shadow:1px  1px 50px yellow;}
+
+}
+#login_btn
+{
+    float:right;
+    width:300px;
+    cursor: pointer;
+}
